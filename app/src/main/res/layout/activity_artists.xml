@@ -5,5 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.rmanzini.mymusicplayer.ArtistsActivity">
-
+    <TextView
+        style="@style/ContentStyle"
+        android:text="@string/content_artists"
+        />
 </android.support.constraint.ConstraintLayout>
