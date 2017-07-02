@@ -17,17 +17,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ColorsActivity"
-            android:label="@string/category_colors" />
+            android:name=".AlbumsActivity"
+            android:label="@string/category_albums" />
         <activity
-            android:name=".PhrasesActivity"
-            android:label="@string/category_phrases" />
+            android:name=".PlaylistActivity"
+            android:label="@string/category_playlist" />
         <activity
-            android:name=".NumbersActivity"
-            android:label="@string/category_numbers" />
+            android:name=".DiscoverActivity"
+            android:label="@string/category_discover" />
         <activity
-            android:name=".FamilyActivity"
-            android:label="@string/category_family" />
+            android:name=".ArtistsActivity"
+            android:label="@string/category_artists" />
     </application>
 
 </manifest>
