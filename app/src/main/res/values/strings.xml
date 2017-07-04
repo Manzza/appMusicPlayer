@@ -4,6 +4,7 @@
     <string name="category_albums" >Albums</string>
     <string name="category_playlist" >Playlist</string>
     <string name="category_discover" >Discover</string>
+    <string name="category_home" >Back Home</string>
     <string name="content_artists" >Listen to your artist song here!</string>
     <string name="content_albums" >Choose from your favored album</string>
     <string name="content_playlist" >Create a amazing playlist with your best artist</string>

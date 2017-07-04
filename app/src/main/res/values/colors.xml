@@ -8,4 +8,5 @@
     <color name="category_albums">#379237</color>
     <color name="category_playlist">#8800A0</color>
     <color name="category_discover">#16AFCA</color>
+    <color name="category_home">#2F1D1A</color>
 </resources>
