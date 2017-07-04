@@ -12,7 +12,11 @@ public class DiscoverActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ActivityDiscoverBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_discover);
+
+        //Setting a new button handler for this activity
         MyButtonHandlers handler= new MyButtonHandlers();
+
+        //Assign listerns to buttons
         handler.albumButtonHandler(binding.includedAlbums.albums);
         handler.artistsButtonHandler(binding.includedArtists.artists);
         handler.homeButtonHandler(binding.includedHome.home);

@@ -11,8 +11,8 @@ import android.widget.Button;
  */
 
 public class MyButtonHandlers {
+        //Receive a button and set a ClickListener to start AlbumActivity
         public void  albumButtonHandler(Button button) {
-            //ClickListener to View album
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -22,8 +22,9 @@ public class MyButtonHandlers {
                 }
             });
         }
+        //Receive a button and set a ClickListener to start ArtistActivity
         public void  artistsButtonHandler(Button button) {
-            //ClickListener to View album
+            //Receive a button and set a ClickListener to start another activity
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -33,8 +34,8 @@ public class MyButtonHandlers {
                 }
             });
         }
+        //Receive a button and set a ClickListener to start DiscoverActivity
         public void  discoverButtonHandler(Button button) {
-            //ClickListener to View album
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -44,6 +45,7 @@ public class MyButtonHandlers {
                 }
             });
         }
+        //Receive a button and set a ClickListener to start PlaylistsActivity
         public void  playlistsButtonHandler(Button button) {
             //ClickListener to View album
             button.setOnClickListener(new View.OnClickListener() {
@@ -55,6 +57,7 @@ public class MyButtonHandlers {
                 }
             });
         }
+        //Receive a button and set a ClickListener to start MainActivity
         public void  homeButtonHandler(Button button) {
             //ClickListener to View album
             button.setOnClickListener(new View.OnClickListener() {

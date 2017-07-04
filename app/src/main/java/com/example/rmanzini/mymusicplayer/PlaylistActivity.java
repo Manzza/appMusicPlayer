@@ -13,7 +13,11 @@ public class PlaylistActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ActivityPlaylistsBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_playlists);
+
+        //Setting a new button handler for this activity
         MyButtonHandlers handler= new MyButtonHandlers();
+
+        //Assign listerns to buttons
         handler.albumButtonHandler(binding.includedAlbums.albums);
         handler.artistsButtonHandler(binding.includedArtists.artists);
         handler.discoverButtonHandler(binding.includedDiscover.discover);

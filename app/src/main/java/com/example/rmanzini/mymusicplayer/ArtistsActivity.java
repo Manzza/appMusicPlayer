@@ -14,7 +14,11 @@ public class ArtistsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ActivityArtistsBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_artists);
+
+        //Setting a new button handler for this activity
         MyButtonHandlers handler= new MyButtonHandlers();
+
+        //Assign listerns to buttons
         handler.albumButtonHandler(binding.includedAlbums.albums);
         handler.homeButtonHandler(binding.includedHome.home);
         handler.discoverButtonHandler(binding.includedDiscover.discover);
